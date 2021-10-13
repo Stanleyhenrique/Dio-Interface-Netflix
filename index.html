@@ -4,53 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
-   
-   
-   <!--Adição do Link OWL-->
-   
-   <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
-   <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
-   
-    <title>DinoFlix</title>
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>DINOFLIX</title>
 </head>
 <body>
     <header>
-
         <div class="container">
-            <h2 class="Logo">DINOFLIX</h2>
+            <h2 class="logo">DINOFLIX</h2>
             <nav>
                 <a href="#">Inicio</a>
-                <a href="#">Series</a>
+                <a href="#">Séries</a>
                 <a href="#">Filmes</a>
                 <a href="#">Documentários</a>
             </nav>
         </div>
-
     </header>
 
     <main>
-
         <div class="filme-principal">
             <div class="container">
-                <h3 class="titulo">Jurassic Park</h3>
-                <p class="descricao">Um parque construído por um milionário tem como habitantes dinossauros diversos, extintos a sessenta e cinco milhões de anos. Isto é possível por ter sido encontrado um inseto fossilizado, que tinha sugado sangue destes dinossauros, de onde pôde-se isolar o DNA, o código químico da vida, e, a partir deste ponto, recriá-los em laboratório. Mas, o que parecia ser um sonho se torna um pesadelo, quando a experiência sai do controle de seus criadores.</p>
-                <button role="button" class="botao">
-                    <i class="fas fa-play"></i>
-                    ASSISTIR AGORA
-                </button>
-                <button role="button" class="botao">
-                    <i class="fas fa-question-circle"></i>
-                    MAIS INFORMAÇÕES
-                </button>
+                <h3 class="titulo">Jurassic Park: O Parque dos Dinossauros (1993)</h3>
+                <p class="descricao">Um parque construído por um milionário tem como habitantes dinossauros diversos, extintos a sessenta e cinco milhões de anos.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
             </div>
         </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="img/mini-1.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-2.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-3.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-4.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-5.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-6.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-7.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-8.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-9.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-10.jpg" alt="" srcset="">
+                </div>
+        </div>
     </div>
-</main>
 
-<script src="https://kit.fontawesome.com/05a7941fe6.js" crossorigin="anonymous"></script>
 
-<script src="js/owl/jquery.min.js"></script>
-<script src="js/owl/owl.carousel.min.js"></script>
 
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+ 
+
+ 
 </body>
 </html>
